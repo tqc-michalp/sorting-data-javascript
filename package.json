@@ -1,0 +1,22 @@
+{
+  "name": "sorting-data-javascript",
+  "version": "1.0.0",
+  "description": "Example TypeScript project to parse CSV and list doctors availability.",
+  "license": "MIT",
+  "author": "tqc-michalp",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.0",
+    "papaparse": "^5.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "vitest": "^3.1.1"
+  }
+}
